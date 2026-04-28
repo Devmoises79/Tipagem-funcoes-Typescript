@@ -41,7 +41,7 @@ O foco está na construção de funções seguras, bem definidas e com retornos 
 
 # 🧩 Exemplos Técnicos do Projeto
 
-📐 Função com retorno explícito:
+- 📐 Função com retorno explícito:
 
 ```bash
 function calculaArea(base: number, altura: number): number {
@@ -49,12 +49,12 @@ function calculaArea(base: number, altura: number): number {
 }
 ```
 
-# ⚡ Arrow function tipada
+-  ⚡ Arrow function tipada:
 ```bash
 const calculaArea2 = (base: number, altura: number): number => base * altura;
 ```
 
-📦 Função com múltiplos argumentos
+- 📦 Função com múltiplos argumentos:
 ```bash
 
 function somar(...numeros: number[]): void {
