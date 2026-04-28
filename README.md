@@ -54,15 +54,16 @@ function calculaArea(base: number, altura: number): number {
 const calculaArea2 = (base: number, altura: number): number => base * altura;
 ```
 
-```bash
 📦 Função com múltiplos argumentos
+```bash
+
 function somar(...numeros: number[]): void {
     console.log(numeros);
 }
 ```
 
-```bash
 🔀 Retorno com múltiplos tipos
+```bash
 function teste(): string | number {
     if (10 > 5) {
         return 'Dez maior que cinco';
